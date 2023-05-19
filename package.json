@@ -1,0 +1,42 @@
+{
+  "name": "react-culqi-ts",
+  "version": "0.1.0",
+  "description": "A React library using Typescript for integration with the Culqi payment processor, compatible with Next.js",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc"
+  },
+  "keywords": [
+    "culqi",
+    "react-culqi",
+    "next-culqi",
+    "react-culqi-ts"
+  ],
+  "contributors": [
+    "Luis Benavides (https://github.com/luis199230/)"
+  ],
+  "author": "luis199230",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/luis199230/react-culqi-ts"
+  },
+  "license": "MIT",
+  "peerDependencies": {
+    "react": ">=16.8.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.6",
+    "@typescript-eslint/eslint-plugin": "^5.59.6",
+    "@typescript-eslint/parser": "^5.59.6",
+    "eslint": "^8.40.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.7.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-react": "^7.32.2",
+    "jest": "^29.4.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
